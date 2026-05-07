@@ -1,0 +1,25 @@
+# Runtime artifacts created by the deployer
+downloads/
+runtime/
+openclaw-home/
+resources/
+
+# Local deploy/test artifacts
+deploy-target-test/
+progress-style-test*/
+repo-sync-test*/
+worker-*.json
+worker-*.events.jsonl
+*-worker.json
+*-worker.events.jsonl
+*.events.jsonl
+launcher-debug.log
+*.log
+
+# Common Windows noise
+Thumbs.db
+Desktop.ini
+
+# Editor folders
+.vscode/
+.idea/
